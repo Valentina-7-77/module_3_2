@@ -25,7 +25,8 @@ def send_email(massege, recepient, *, sender = 'university.help@gmail.com'):
     # "НЕСТАНДАРТНЫЙ ОТПРАВИТЕЛЬ! Письмо отправлено с адреса sender на адрес recepient"
     elif sender != university.help@gmail.com:
         print('НЕСТАНДАРТНЫЙ ОТПРАВИТЕЛЬ! Письмо отправлено с адреса', str(sender), 'на адрес', str(recepient))
-
+        
+    # Вывод в консоль
 send_email('message', 'vasyok1337@gmail.com')
 send_email('Вы видите это сообщение как лучший студент курса!', 'urban.fan@mail.ru', sender ='urban.info@gmail.com')
 send_email('Пожалуйста, исправьте задание', 'urban.student@mail.ru', sender='urban.teacher@mail.uk')
